@@ -1,0 +1,18 @@
+.body_header {
+  color: var(--black-font);
+  font-size: 38px;
+  width: 753px;
+  height: 98px;
+  text-align: center;
+  font-family: "Inter";
+  position: absolute;
+  left: 50%;
+  top: 821px;
+  transform: translateX(-50%);
+  font-weight: 500;
+}
+
+.expressed_text {
+  color: var(--blue-font);
+  font-weight: 500;
+}

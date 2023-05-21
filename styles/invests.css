@@ -1,0 +1,48 @@
+.invests {
+  width: 1024px;
+  height: max-content;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 963px;
+  height: 330px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.invest {
+  width: 502px;
+  height: 328px;
+  position: relative;
+  background-color: var(--light-blue);
+  border-radius: 30px;
+}
+
+.invest_header {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 20px;
+  width: 200px;
+  color: #000000;
+  position: absolute;
+  top: 37px;
+  left: 20px;
+}
+
+.invest_description {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 14px;
+  width: 180px;
+  text-align: left;
+  position: absolute;
+  top: 105px;
+  left: 20px;
+}
+
+.invest_img {
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+}

@@ -1,0 +1,91 @@
+.info {
+  width: 1027px;
+  position: absolute;
+  left: 50%;
+  height: 400px;
+  top: 1405px;
+  transform: translateX(-50%);
+}
+
+.info_header {
+  font-family: "Inter";
+  font-size: 38px;
+  font-weight: 500;
+  width: 500px;
+  text-align: left;
+  color: #29374e;
+}
+
+.info_description {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 14px;
+  color: #1e2837;
+  position: absolute;
+  top: 119px;
+  width: 405px;
+}
+
+.info_button {
+  background-color: #0962e8;
+  width: 199px;
+  height: 52px;
+  border-radius: 8px;
+  position: absolute;
+  display: grid;
+  top: 216px;
+}
+
+.info_button_text {
+  font-family: "Inter";
+  margin: auto auto;
+  color: var(--white-background);
+  font-size: 18px;
+}
+
+.info_list {
+  position: absolute;
+  width: 500px;
+  height: 301px;
+  right: 0;
+  top: 6px;
+  gap: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.info_item {
+  width: 231px;
+  height: 140px;
+  border-radius: 30px;
+  position: relative;
+}
+
+.info_item_img {
+  position: absolute;
+  left: 28px;
+  top: 17px;
+  z-index: 200;
+}
+
+.info_item_img_background {
+  width: 39px;
+  height: 39px;
+  border-radius: 50%;
+  position: absolute;
+  left: 28px;
+  top: 17px;
+  background-color: var(--light-blue);
+}
+
+.info_item_text {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 14px;
+  color: #29374e;
+  position: absolute;
+  left: 26px;
+  top: 70px;
+  width: 200px;
+}

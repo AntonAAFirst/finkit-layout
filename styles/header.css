@@ -1,0 +1,111 @@
+.header_background {
+  width: 100%;
+  height: 678px;
+  background-color: rgba(203, 236, 255, 1);
+}
+
+.header_part {
+  width: max-content;
+  height: 678px;
+  width: 1073px;
+  position: relative;
+  margin: auto auto;
+}
+
+.header_text_start {
+  font-family: "Inter";
+  position: absolute;
+  font-weight: 700;
+  font-size: 64px;
+  color: var(--black-font);
+  top: 129px;
+}
+
+.header_text_end_container {
+  background-color: var(--white-background);
+  width: 122px;
+  height: 80px;
+  border-radius: 20px;
+  top: 129px;
+  left: 100px;
+  position: relative;
+}
+
+.header_text_end {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 64px;
+  left: 17px;
+  position: absolute;
+  color: var(--blue-font);
+}
+
+.header_description {
+  color: var(--black-font);
+  font-size: 22px;
+  font-weight: 400;
+  text-align: left;
+  position: absolute;
+  left: 3px;
+  top: 221px;
+  width: 384px;
+  font-family: "Inter";
+}
+
+.header_button {
+  background-color: var(--blue-font);
+  width: 199px;
+  height: 52px;
+  border-radius: 8px;
+  position: absolute;
+  top: 346px;
+  left: 2px;
+  display: grid;
+}
+
+.header_button_text {
+  font-family: "Inter";
+  color: var(--white-background);
+  font-size: 18px;
+  font-weight: 500;
+  margin: auto auto;
+}
+
+.header_phone_img {
+  position: absolute;
+  right: -136px;
+  top: 2px;
+}
+
+.header_ru_button {
+  width: 26px;
+  height: 24px;
+  color: var(--black-font);
+  position: absolute;
+  top: 29px;
+  right: 118px;
+  display: flex;
+  border-radius: 12px;
+}
+
+.header_language_button_text {
+  font-family: "Inter";
+  margin: auto auto;
+  font-size: 14px;
+}
+
+.header_language_button_active {
+  color: var(--blue-font);
+  background-color: white;
+}
+
+.header_eng_button {
+  width: 26px;
+  height: 24px;
+  color: var(--black-font);
+  position: absolute;
+  top: 29px;
+  right: 79px;
+  display: flex;
+  border-radius: 12px;
+}
