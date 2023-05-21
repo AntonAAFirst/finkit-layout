@@ -46,3 +46,50 @@
   bottom: 0;
   right: 10px;
 }
+
+.invest_img_mobile {
+  position: absolute;
+  z-index: 200;
+  bottom: -8px;
+  right: -10px;
+  display: none;
+}
+
+@media screen and (max-width: 1100px) {
+  .invest_img_mobile {
+    display: block;
+  }
+
+  .invest_img {
+    display: none;
+  }
+
+  .invests {
+    width: 344px;
+    top: 1089px;
+    height: 1000px;
+    flex-direction: column;
+  }
+
+  .invest {
+    width: 344px;
+    height: 215px;
+  }
+
+  .invest_header {
+    font-size: 16px;
+    width: 150px;
+    top: 25px;
+    left: 16px;
+    font-weight: 600;
+    color: #29374e;
+  }
+
+  .invest_description {
+    font-size: 13px;
+    color: #29374e;
+    top: 73px;
+    left: 16px;
+    width: 162px;
+  }
+}
